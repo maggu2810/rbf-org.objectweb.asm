@@ -4,7 +4,7 @@
 
   <groupId>de.maggu2810.requirebundle.fix</groupId>
   <artifactId>org.objectweb.asm</artifactId>
-  <version>5.0.1</version>
+  <version>5.0.2</version>
 
   <packaging>bundle</packaging>
 
@@ -103,10 +103,10 @@
         <configuration>
           <instructions>
             <Bundle-SymbolicName>org.objectweb.asm</Bundle-SymbolicName>
-            <Bundle-Version>5.0.1</Bundle-Version>
+            <Bundle-Version>5.0.2</Bundle-Version>
             <Import-Package>
-              org.objectweb.asm;version="[5.0.1,6.0.0)",
-              org.objectweb.asm.signature;version="[5.0.1,6.0.0)"
+              org.objectweb.asm;version="[5.0.2,6.0.0)",
+              org.objectweb.asm.signature;version="[5.0.2,6.0.0)"
             </Import-Package>
           </instructions>
         </configuration>
